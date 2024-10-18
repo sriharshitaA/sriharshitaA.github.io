@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+    background-color: #e5e5e5;
+    color: #b9255e;
+}
+
+header {
+    background-color:rosybrown ;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav a {
+    color: palevioletred;
+    text-decoration: none;
+}
+img {
+    border-radius: 50%;
+    border: 2px solid #333;
+} /*making the image circular*/
+
+h1{
+    margin:0;
+}
+
+header p{
+    margin: 5px 0;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background:azure;
+    border-radius: 5px;
+} /*making every section seperate*/
+
+h2{
+    color:#333 ;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+}
+
+ul li{
+    background: #e5e5e5;
+    margin: 5px;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+h3{
+    color:#333 ;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    bottom:0;
+}
+
